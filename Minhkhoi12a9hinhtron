@@ -1,11 +1,11 @@
-<canvas id="c" width="300" height="300"></canvas>
-<script>
-const c = document.getElementById('c');
-const ctx = c.getContext('2d');
-ctx.beginPath();
-// vẽ tâm (150.5,150.5) giúp chống aliasing khi stroke 1px
-ctx.arc(150.5, 150.5, 100, 0, Math.PI*2);
-ctx.lineWidth = 1;
-ctx.strokeStyle = '#000';
-ctx.stroke();
-</script>
+<html>
+<head>
+<title>Page Title</title>
+</head>
+<body>
+
+<h1>This is a Heading</h1>
+<p>This is a paragraph.</p>
+
+</body>
+</html>
